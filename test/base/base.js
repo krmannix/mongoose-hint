@@ -114,18 +114,18 @@ describe('base', () => {
         expect(hinter(data)).to.equal(index1);
       });
 
-      it('should return {}', () => {
+      it('should return undefined', () => {
         let data = {
           d: 19,
         };
 
-        expect(hinter(data)).to.deep.equal({});
+        expect(hinter(data)).to.be.undefined;
       });
 
-      it('should return {}', () => {
+      it('should return undefined', () => {
         let data = {};
 
-        expect(hinter(data)).to.deep.equal({});
+        expect(hinter(data)).to.be.undefined;
       });
     });
 

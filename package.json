@@ -1,6 +1,6 @@
 {
   "name": "ikat-mongoose-hint-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate hints for Mongoose queries on the fly",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
     "mocha": "3.2.0"
   },
   "dependencies": {
-    "ikat": "0.1.3"
+    "ikat": "0.2.0"
   }
 }
