@@ -1,5 +1,5 @@
 {
-  "name": "ikat-mongoose-hint-plugin",
+  "name": "mongoose-hint",
   "version": "0.2.0",
   "description": "Generate hints for Mongoose queries on the fly",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/krmannix/ikat-mongoose-hint-plugin.git"
+    "url": "git+https://github.com/krmannix/mongoose-hint.git"
   },
   "keywords": [
     "mongoose",
@@ -17,9 +17,9 @@
   "author": "K. Rodman Mannix",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/krmannix/ikat-mongoose-hint-plugin/issues"
+    "url": "https://github.com/krmannix/mongoose-hint/issues"
   },
-  "homepage": "https://github.com/krmannix/ikat-mongoose-hint-plugin#readme",
+  "homepage": "https://github.com/krmannix/mongoose-hint#readme",
   "devDependencies": {
     "chai": "3.5.0",
     "eslint": "3.11.0",
