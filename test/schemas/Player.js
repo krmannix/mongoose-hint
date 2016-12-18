@@ -8,6 +8,7 @@ const PlayerSchema = mongoose.Schema({
   team: String,
   rank: Number,
   country: {
+    type: String,
     enum: [
       'US',
       'UK',
