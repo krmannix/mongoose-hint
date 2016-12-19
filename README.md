@@ -7,8 +7,8 @@ Generate hints on the fly for every Mongoose query.
 [![Twitter](https://img.shields.io/badge/twitter-@krodmannix-blue.svg?style=flat)](http://twitter.com/krodmannix)
 
 _Note:_
-* Minimum **Node**: v4.0.0
-* Minimum **Mongoose**: v4.0
+* **Minimum Node**: v4.0.0
+* **Minimum Mongoose**: v4.0
 
 ## Example
 
@@ -103,7 +103,7 @@ Supports `find` queries and `update` queries. `require('mongoose-hint')` exposes
 
 Tests can be run via the `npm test` command. [We aim to write tests](test/) for all supported behaviors.
 
-_NOTE_: To run tests, you will need to have a Mongo instance to connect to. By default we use the `ikat_mongoose_hint_plugin_test_db` database locally, but you can pick which database you'd like to run tests against with the `TEST_DB` environment variable like so:
+_Note_: To run tests, you will need to have a Mongo instance to connect to. By default we use the `ikat_mongoose_hint_plugin_test_db` database locally, but you can pick which database you'd like to run tests against with the `TEST_DB` environment variable like so:
 
 ```
 TEST_DB=mongodb://127.0.0.1/test_db npm test

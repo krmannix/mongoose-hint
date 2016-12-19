@@ -1,6 +1,6 @@
 {
   "name": "mongoose-hint",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Generate hints for Mongoose queries on the fly",
   "main": "index.js",
   "scripts": {
