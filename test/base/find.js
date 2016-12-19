@@ -3,11 +3,10 @@
 const mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 const plugin = require('../../index');
-const sinon = require('sinon');
 const chai = require('chai');
 const expect = chai.expect;
 const PlayerSchema = require('../schemas/Player');
-const dbUrl = 'mongodb://127.0.0.1/ikat_mongoose_hint_plugin_test_db';
+const dbUrl = require('../base').TEST_DB;
 const connection = mongoose.createConnection(dbUrl);
 
 describe('base', () => {
@@ -53,7 +52,7 @@ describe('base', () => {
       return query
         .then(() => {
           expect(query.options.hint).to.deep.equal(indexes.COUNTRY_RANK_INDEX);
-        })
+        });
     });
 
     it('should use the COUNTRY_RANK_INDEX hint', () => {

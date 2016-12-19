@@ -4,7 +4,8 @@
   "description": "Generate hints for Mongoose queries on the fly",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha ./test --recursive"
+    "test": "./node_modules/mocha/bin/mocha ./test --recursive",
+    "lint": "./node_modules/eslint/bin/eslint.js ."
   },
   "repository": {
     "type": "git",
@@ -24,8 +25,7 @@
     "chai": "3.5.0",
     "eslint": "3.11.0",
     "mocha": "3.2.0",
-    "mongoose": "4.6.1",
-    "sinon": "1.17.6"
+    "mongoose": "4.6.1"
   },
   "dependencies": {
     "bluebird": "3.4.6",
